@@ -12,8 +12,8 @@ int func(int N)
     int fact = 1;
     for (int i = 1; i <= N; i++)
     {
-        fact = fact * i;
+        fact *= i;
     }
     return fact;
 }
-Console.WriteLine("Factorial: " +func(N));
+Console.WriteLine("Factorial: " + func(N));
